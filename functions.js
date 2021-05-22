@@ -5,7 +5,7 @@
 // +------------------------------------------------------------------------+
 // | Copyright (c) 2021 HENT Technologies. All rights reserved.
 // +------------------------------------------------------------------------+
-// Last updated : 22 MAy, 2021
+// Last updated : 22 May, 2021
 
 /* SEE usage.js ON HOW TO USE THESE FUNCTIONS */
 
