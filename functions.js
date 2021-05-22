@@ -9,7 +9,7 @@
 
 /* SEE usage.js ON HOW TO USE THESE FUNCTIONS */
 
-/ +----------------------------+
+// +----------------------------+
 // | Cookies (Set, get, delete)
 // +----------------------------+
 // Create cookie
@@ -73,4 +73,14 @@ function ajax_request(url, data, form = true) {
         });
     }
     return send;
+}
+
+// Redirect page using javascript (Personally, i find window.href.. stressful)
+function redirect(url, reload = false) {
+	if (!reload) {
+		window.location.href = url;
+	}
+	else {
+        window.location.reload(true);
+	}
 }
